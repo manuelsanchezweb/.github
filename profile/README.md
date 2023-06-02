@@ -6,6 +6,8 @@
 
 </div>
 
+<br />
+
 <p align="center" style="margin: 10px auto; width: 300px;">Soy un <strong>Frontend Team Lead y Creador de Contenido</strong> español adoptado por Alemania. <br /> Me considero un freak de React y Qwik.</p>
 
 <div align="center" style="display: flex; margin: 10px 0; justify-content: center; gap: 10px;">
