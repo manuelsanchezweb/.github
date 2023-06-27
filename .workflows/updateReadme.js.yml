@@ -18,6 +18,8 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '18'
+    - name: Change to the 'web' directory
+      run: cd web
     - run: npm install
     - run: npm run update-readme
       env:
