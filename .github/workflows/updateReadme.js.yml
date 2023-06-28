@@ -19,9 +19,7 @@ jobs:
       with:
         node-version: '18'
     - name: Change to the 'web' directory
-      run: cd profile
-    - run: npm install
-    - run: npm run update-readme
+      run: cd profile && npm i && npm run update-readme
       env:
         YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
     - run: |
