@@ -19,7 +19,7 @@ jobs:
       with:
         node-version: '18'
     - name: Change to the 'web' directory
-      run: cd profile
+      run: cd ../profile
     - run: npm install
     - run: npm run update-readme
       env:
